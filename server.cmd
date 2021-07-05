@@ -2,7 +2,7 @@ echo off
 title 로딩중
 cls
 chcp 65001
-
+cd MINDCLC
 title 선택해주세요
 cls
 :ho
