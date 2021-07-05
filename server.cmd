@@ -9,10 +9,8 @@ cls
 title 런처0.2
 cls
 echo 1. 0.2툴실행
-echo 2.종료
 set /p aa=:
 if %aa%==1 goto 1
-if %aa%==2 goto 3
 
 echo error
 goto error
@@ -33,9 +31,7 @@ exit
 
 
 
-:3
-title 종료중
-exit
+
 
 :error
 exit
