@@ -19,14 +19,9 @@ goto error
 
 :1
 title 다운로드중
-cmd /c del /s /f /q MINDC
-cls
-cmd /c rmdir /s /q MINDC
-cls
-cmd /c git clone https://github.com/MINCODEDIS/MINDC
-if not "%ERRORLEVEL%" == "0" goto ERRORS
-cls
-cmd /c start MINDC\server.cmd
+echo 다운로드중입니다 기달려주세요....
+start MINDCLC\dd.exe
+TIMEOUT 3
 exit
 
 
